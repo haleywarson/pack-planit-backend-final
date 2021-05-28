@@ -4,21 +4,21 @@ class ListsController < ApplicationController
 
     def index
         @lists = List.all 
-        render json: @lists 
+        render json: @lists, include: [:trips]
     end
 
     def show
-        render json: @list 
+        render json: @list, include: [:trips]
     end 
 
     def create
         @list = List.create name: params[:name], items: params[:items]
-        render json: @list 
+        render json: @list, include: [:trips]
     end
 
     def update
         @list.update name: params[:name], items: params[:items]
-        render json: @list 
+        render json: @list, include: [:trips]
     end
 
     def destroy
