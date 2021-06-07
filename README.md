@@ -6,6 +6,8 @@
 
 [Technologies](#technologies)
 
+[Demo}(#demo)
+
 [Setup](#setup)
 
 [Features](#features)
@@ -18,7 +20,7 @@
 
 ## General Info
 
-Pack Planit helps you plan for and pack for your next camping or backpacking trip!
+Pack Planit helps you plan and pack for your next camping or backpacking trip!
 The frontend repo for this project can be found [here](https://github.com/haleywarson/pack-planit-rails-frontend).
 
 ## Technologies
@@ -29,6 +31,10 @@ The frontend repo for this project can be found [here](https://github.com/haleyw
 - JSX
 - Rails
 - Ruby
+
+## Demo
+
+https://www.youtube.com/watch?v=22WPs-L9jLA
 
 ## Setup
 
