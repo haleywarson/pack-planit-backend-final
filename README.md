@@ -6,7 +6,7 @@
 
 [Technologies](#technologies)
 
-[Demo}(#demo)
+[Demo](#demo)
 
 [Setup](#setup)
 
